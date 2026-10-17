@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+
+# Datasets: NOT committed (large, licensed, contain abusive text)
+# (patterns end in /* so the folders themselves stay visible and .gitkeep can be re-included)
+data/raw/*/*
+!data/raw/*/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external_test/*
+!data/external_test/.gitkeep
+
+# Trained models / checkpoints
+models/*/*
+!models/*/.gitkeep
+*.pt
+*.bin
+*.safetensors
+checkpoints/
+
+# Reports that quote real abusive comments
+results/metrics/raw_structure_report.txt
+
+# Results: keep folders, ignore bulky outputs (figures/metrics ARE small - see note in README)
+results/predictions/**
+!results/predictions/.gitkeep
+
+# Secrets
+.env
+*.key
