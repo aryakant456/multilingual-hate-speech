@@ -1,0 +1,31 @@
+{
+  "sizes": {
+    "train": 68997,
+    "val": 19788,
+    "test": 19787,
+    "zero_shot": 62857,
+    "external_indicguard": 213638
+  },
+  "overlaps_before_cleanup": {
+    "train&val": 0,
+    "train&test": 0,
+    "train&zero_shot": 0,
+    "val&test": 0,
+    "val&zero_shot": 0,
+    "test&zero_shot": 0
+  },
+  "notes": [
+    "IndicGuard: removed 3 prompts that also occur in the other datasets."
+  ],
+  "stratification_flags": [],
+  "class_weights_train": {
+    "0": 1.012369046571001,
+    "1": 0.9879295532646049
+  },
+  "train_hate_share_by_language": {
+    "English": 0.5941,
+    "Hindi": 0.5218,
+    "Malayalam": 0.4506,
+    "Tamil": 0.4613
+  }
+}

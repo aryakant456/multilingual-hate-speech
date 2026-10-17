@@ -1,0 +1,15 @@
+set,source,language,Hate/Abusive,Non-Hate,total,hate_%
+test,HateXplain,English,1141,777,1918,59.5
+test,MACD,Hindi,3494,3229,6723,52.0
+test,MACD,Malayalam,2308,2846,5154,44.8
+test,MACD,Tamil,2794,3198,5992,46.6
+train,HateXplain,English,9119,6231,15350,59.4
+train,MACD,Hindi,10523,9644,20167,52.2
+train,MACD,Malayalam,6981,8511,15492,45.1
+train,MACD,Tamil,8297,9691,17988,46.1
+val,HateXplain,English,1139,780,1919,59.4
+val,MACD,Hindi,3461,3261,6722,51.5
+val,MACD,Malayalam,2333,2820,5153,45.3
+val,MACD,Tamil,2820,3174,5994,47.0
+zero_shot,MACD,Kannada,15890,17012,32902,48.3
+zero_shot,MACD,Telugu,15564,14391,29955,52.0

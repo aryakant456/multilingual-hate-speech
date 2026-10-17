@@ -174,7 +174,8 @@ def inspect_frame(df: pd.DataFrame, name: str = "", n_head: int = 3) -> None:
 def read_processed_csv(path) -> pd.DataFrame:
     """Read a CSV written by this project. Empty cells become NaN, nothing else does
     (so a comment that literally says "NA" or "null" is NOT turned into a missing value)."""
-    return pd.read_csv(path, encoding="utf-8", keep_default_na=False, na_values=[""])
+    return pd.read_csv(path, encoding="utf-8", keep_default_na=False, na_values=[""],
+                       dtype={"label_raw": str}, low_memory=False)
 
 
 def write_processed_csv(df: pd.DataFrame, path) -> None:

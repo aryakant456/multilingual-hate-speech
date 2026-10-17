@@ -1,0 +1,20 @@
+{
+  "train_pool": {
+    "table": "MACD+HateXplain",
+    "rows_in": 171651,
+    "dropped_empty_after_cleaning": 0,
+    "dropped_no_letter_digit_or_emoji": 0,
+    "dropped_duplicates_with_conflicting_labels": 43,
+    "dropped_exact_duplicates": 179,
+    "rows_out": 171429
+  },
+  "indicguard": {
+    "table": "IndicGuard",
+    "rows_in": 233365,
+    "dropped_empty_after_cleaning": 0,
+    "dropped_no_letter_digit_or_emoji": 33,
+    "dropped_duplicates_with_conflicting_labels": 395,
+    "dropped_exact_duplicates": 19296,
+    "rows_out": 213641
+  }
+}

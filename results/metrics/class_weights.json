@@ -1,0 +1,43 @@
+{
+  "class_weights_train": {
+    "0": 1.0124,
+    "1": 0.9879
+  },
+  "imbalance_table": [
+    {
+      "group": "English",
+      "non_hate": 6231,
+      "hate": 9119,
+      "hate_%": 59.4,
+      "majority/minority": 1.46
+    },
+    {
+      "group": "Hindi",
+      "non_hate": 9644,
+      "hate": 10523,
+      "hate_%": 52.2,
+      "majority/minority": 1.09
+    },
+    {
+      "group": "Malayalam",
+      "non_hate": 8511,
+      "hate": 6981,
+      "hate_%": 45.1,
+      "majority/minority": 1.22
+    },
+    {
+      "group": "Tamil",
+      "non_hate": 9691,
+      "hate": 8297,
+      "hate_%": 46.1,
+      "majority/minority": 1.17
+    },
+    {
+      "group": "ALL (train)",
+      "non_hate": 34077,
+      "hate": 34920,
+      "hate_%": 50.6,
+      "majority/minority": 1.02
+    }
+  ]
+}

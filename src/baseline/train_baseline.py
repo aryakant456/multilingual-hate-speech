@@ -35,7 +35,7 @@ from src.utils.config import (BASELINE_DIR, FIGURES_DIR, METRICS_DIR,
 from src.utils.metrics import compute_metrics, metrics_by_group, plot_confusion_matrix
 
 NGRAM_RANGES = [(1, 1), (1, 2)]        # unigrams  vs  unigrams + bigrams
-C_VALUES = [0.5, 1.0, 2.0, 4.0]        # strength of regularisation (bigger C = weaker)
+C_VALUES = [1.0, 2.0, 4.0, 8.0, 16.0]        # strength of regularisation (bigger C = weaker)
 
 
 def make_vectorizer(ngram_range) -> TfidfVectorizer:
