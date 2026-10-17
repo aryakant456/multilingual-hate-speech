@@ -1,0 +1,8 @@
+# Installed LOCALLY (VS Code) for phases 12-13: running the trained model on your own computer (CPU is enough).
+# Install torch first (CPU build, smaller download):
+#     pip install torch --index-url https://download.pytorch.org/whl/cpu
+# then:
+#     pip install -r requirements-model.txt
+transformers>=4.40
+sentencepiece>=0.2
+safetensors>=0.4

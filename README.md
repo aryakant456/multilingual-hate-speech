@@ -61,3 +61,15 @@ Notebooks: `02_preprocessing.ipynb` (EDA, Phase 6) and `03_baseline.ipynb` (Phas
 Documentation: `docs/label_mapping.md`, `docs/preprocessing.md`.
 Data design: train/val/test = MACD Hindi+Tamil+Malayalam + HateXplain English (official splits);
 zero-shot = MACD Telugu+Kannada; external = IndicGuard (never touched before final evaluation).
+
+
+## XLM-R (Phases 8-13)
+Workflow: VS Code -> GitHub -> Google Colab (GPU) -> model on Google Drive -> download -> VS Code.
+```
+python scripts/make_colab_data.py          # slim data files in colab_upload/  -> upload to Google Drive
+# Colab:  notebooks/04_xlm_training.ipynb  (train)   and   notebooks/05_evaluation.ipynb  (test + IndicGuard)
+# VS Code: notebooks/06_explainability.ipynb  (Integrated Gradients + predict())
+python -m src.model.predict "I hate those disgusting people"     # needs models/xlm_roberta_hate/
+```
+Local libraries for phases 12-13: see `requirements-model.txt`. Colab libraries: `requirements-colab.txt`.
+Model weights are git-ignored (about 1.1 GB): they live on Google Drive and in `models/xlm_roberta_hate/`.

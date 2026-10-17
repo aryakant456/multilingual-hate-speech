@@ -1,0 +1,9 @@
+# Installed in Google Colab by notebooks 04 and 05 (torch is already pre-installed there).
+transformers>=4.40
+sentencepiece>=0.2
+safetensors>=0.4
+scikit-learn>=1.4
+pandas>=2.2
+matplotlib>=3.8
+seaborn>=0.13
+tqdm>=4.66

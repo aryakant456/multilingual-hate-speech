@@ -40,3 +40,6 @@ results/predictions/**
 # Secrets
 .env
 *.key
+
+# Slim data files prepared for the Google Drive upload (contain real comments)
+colab_upload/

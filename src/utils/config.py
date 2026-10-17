@@ -116,3 +116,12 @@ TEST_FILE = PROCESSED_DIR / "test.csv"
 ZERO_SHOT_FILE = PROCESSED_DIR / "zero_shot_test.csv"
 EXTERNAL_FILE = EXTERNAL_TEST_DIR / "indicguard_external.csv"    # final external test set
 BASELINE_DIR = MODELS_DIR / "baseline"
+
+
+# ================================================================ Phases 8-13 (XLM-R)
+XLMR_MODEL_NAME = "xlm-roberta-base"
+XLMR_DIR = MODELS_DIR / "xlm_roberta_hate"        # the fine-tuned model lives here (git-ignored)
+ID2LABEL = {0: "NON-HATE", 1: "HATE"}
+LABEL2ID = {"NON-HATE": 0, "HATE": 1}
+INTERNAL_LANGUAGES = ["English", "Hindi", "Tamil", "Malayalam"]   # language-wise internal evaluation
+EXTERNAL_LANGUAGES = ["English", "Hindi", "Tamil", "Malayalam"]   # IndicGuard languages we evaluate
