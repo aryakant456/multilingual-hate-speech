@@ -1,0 +1,50 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.4497924662833508,
+      "val_loss": 0.3727331033301445,
+      "macro_f1": 0.8460629843459687,
+      "accuracy": 0.8461188599151,
+      "precision_hate": 0.8472768689169601,
+      "recall_hate": 0.839023890085102,
+      "f1_hate": 0.8431301839163361,
+      "precision_macro": 0.846145838209714,
+      "recall_macro": 0.8460191697560537,
+      "roc_auc": 0.9275049068238608,
+      "minutes_elapsed": 10.0
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3329539573040382,
+      "val_loss": 0.3348159036818046,
+      "macro_f1": 0.8563091439434357,
+      "accuracy": 0.8563270669092379,
+      "precision_hate": 0.8520480945587936,
+      "recall_hate": 0.8573772172664821,
+      "f1_hate": 0.8547043491592988,
+      "precision_macro": 0.8562927458957994,
+      "recall_macro": 0.8563418223851095,
+      "roc_auc": 0.9364577051170897,
+      "minutes_elapsed": 20.1
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.27732686529959905,
+      "val_loss": 0.3576934003446809,
+      "macro_f1": 0.8596391127222686,
+      "accuracy": 0.8596624216696989,
+      "precision_hate": 0.8566462167689162,
+      "recall_hate": 0.8590177381318569,
+      "f1_hate": 0.8578303384016792,
+      "precision_macro": 0.8596280644196299,
+      "recall_macro": 0.8596533633359833,
+      "roc_auc": 0.9381642054511251,
+      "minutes_elapsed": 30.3
+    }
+  ],
+  "best_epoch": 3,
+  "best_val_macro_f1": 0.8596391127222686,
+  "output_dir": "/content/drive/MyDrive/hate-speech/xlm_roberta_hate",
+  "train_minutes": 30.6
+}
