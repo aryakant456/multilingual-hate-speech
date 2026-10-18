@@ -2,12 +2,16 @@
 
 Method: **Integrated Gradients** on the XLM-R input embeddings (`src/explainability/integrated_gradients.py`).
 
-* Baseline: same length as the input, every token replaced by `<pad>` (the first `<s>` and last `</s>` stay).
-* `n_steps = 50` interpolation steps from baseline to input; gradient of P(predicted class) with respect to the embeddings.
+* Baseline: same length as the input; four candidates are tried (every token replaced by `<pad>`, `<mask>`, `<unk>`, or a zero vector;
+  the first `<s>` and last `</s>` stay) and the one with the LOWEST P(predicted class) is used ("auto").
+  Reason: IG explains the change between baseline and input; if the baseline already gets the same probability there is nothing to explain.
+* `n_steps = 50` interpolation steps (midpoint rule), doubled up to 200 until the scores add up; gradient of P(predicted class) with respect to the embeddings.
 * One signed score per token (sum over the embedding dimension); sub-word pieces are merged into words
   (XLM-R marks word starts with `▁`); word importance = positive score / largest positive score.
-* Check: `completeness_error` compares the sum of the scores with P(class | input) - P(class | baseline).
-  Small values mean a trustworthy explanation; large values mean "use more steps".
+* Checks per explanation: `gap` = P(class | input) - P(class | baseline) must be at least 0.20, and the sum of the scores must match
+  the gap within 0.05 (absolute, in probability units). Otherwise the explanation is marked NOT reliable.
+* Fallback: occlusion (leave-one-word-out). Score of a word = drop in P(predicted class) when it is removed. It needs no baseline.
+  `predict()` uses it automatically when Integrated Gradients is not reliable (`details=True` shows which method was used).
 * Importance tiers for the UI: strong (>= 0.66), medium (>= 0.33), low (>= 0.10).
 
 ## Wording for the report
