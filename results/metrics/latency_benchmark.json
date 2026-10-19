@@ -1,0 +1,54 @@
+{
+  "mode": "in-process",
+  "repeats": 5,
+  "warmup": 3,
+  "n_inputs": 8,
+  "model_load_seconds": 19.77,
+  "first_request_ms": 6269.0,
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+    "cpu_count": 12,
+    "python": "3.12.0",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.20.1",
+    "torch_threads": 10,
+    "cuda_available": false,
+    "device": "cpu"
+  },
+  "summary": {
+    "prediction_only_ms (preprocessing + inference, all inputs)": {
+      "n": 40,
+      "median_ms": 39.5,
+      "mean_ms": 66.6,
+      "p95_ms": 281.7,
+      "min_ms": 28.7,
+      "max_ms": 355.7
+    },
+    "total_ms, no explanation (NON-HATE inputs)": {
+      "n": 25,
+      "median_ms": 37.1,
+      "mean_ms": 40.0,
+      "p95_ms": 57.1,
+      "min_ms": 28.7,
+      "max_ms": 60.6
+    },
+    "total_ms, with explanation (HATE inputs)": {
+      "n": 15,
+      "median_ms": 1999.9,
+      "mean_ms": 14519.3,
+      "p95_ms": 50899.1,
+      "min_ms": 1376.5,
+      "max_ms": 74051.8
+    },
+    "explainability_ms (HATE inputs)": {
+      "n": 15,
+      "median_ms": 1949.7,
+      "mean_ms": 14408.3,
+      "p95_ms": 50699.1,
+      "min_ms": 1330.1,
+      "max_ms": 73770.3
+    },
+    "explainability_share_of_total_for_hate_inputs_%": 99.2
+  }
+}

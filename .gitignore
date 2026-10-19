@@ -43,3 +43,8 @@ results/predictions/**
 
 # Slim data files prepared for the Google Drive upload (contain real comments)
 colab_upload/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env

@@ -73,3 +73,14 @@ python -m src.model.predict "I hate those disgusting people"     # needs models/
 ```
 Local libraries for phases 12-13: see `requirements-model.txt`. Colab libraries: `requirements-colab.txt`.
 Model weights are git-ignored (about 1.1 GB): they live on Google Drive and in `models/xlm_roberta_hate/`.
+
+
+## Web application (Phases 14-17)
+```
+pip install -r requirements-api.txt
+uvicorn backend.main:app --host 127.0.0.1 --port 8000     # terminal 1  (API; docs at http://127.0.0.1:8000/docs)
+python scripts/check_api.py                                # terminal 2  (end-to-end API check)
+cd frontend && npm install && npm run dev                  # terminal 2  (UI at http://localhost:5173)
+python scripts/benchmark_latency.py                        # Phase 17: measured response times (stop the API first)
+```
+Flow and API contract: `docs/architecture.md`.

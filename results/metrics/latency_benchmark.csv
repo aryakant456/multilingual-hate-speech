@@ -1,0 +1,9 @@
+id,source,chars,language,prediction,confidence,true_label,explained,method,preprocessing_ms,inference_ms,explainability_ms,total_ms,total_min_ms,total_max_ms,client_ms,repeats
+1,built-in,30,English,HATE,0.76,,True,integrated_gradients,0.31,41.96,1378.68,1421.69,1376.48,1473.92,1421.73,5
+2,built-in,45,English,HATE,0.54,,True,occlusion,0.35,41.02,1949.65,1999.88,1778.92,2107.94,1999.91,5
+3,built-in,30,English,NON-HATE,1.0,,False,-,0.34,32.6,0.0,32.89,28.74,36.79,32.93,5
+4,built-in,91,English,NON-HATE,1.0,,False,-,0.51,55.04,0.0,55.57,50.72,60.63,55.6,5
+5,built-in,24,Hindi,NON-HATE,1.0,,False,-,0.39,37.94,0.0,38.36,32.71,41.07,38.39,5
+6,built-in,25,Tamil,NON-HATE,1.0,,False,-,0.35,36.88,0.0,37.23,35.9,39.76,37.26,5
+7,built-in,29,Malayalam,NON-HATE,1.0,,False,-,0.43,36.51,0.0,37.06,34.15,38.26,37.09,5
+8,built-in,384,English,HATE,0.62,,True,occlusion,1.11,280.35,36715.79,36874.74,21305.29,74051.79,36874.79,5
