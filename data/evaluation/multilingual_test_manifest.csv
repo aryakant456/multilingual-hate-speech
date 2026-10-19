@@ -1,0 +1,43 @@
+text,language,category,true_label,source,is_synthetic,review_status
+The new public transit schedule has significantly reduced commute times across the city.,English,Normal English,0.0,curated_eval,False,verified
+"I disagree with this economic policy, but healthy debate is essential for democracy.",English,Normal English,0.0,curated_eval,False,verified
+The chef's presentation was brilliant and the food tasted delicious.,English,Normal English,0.0,curated_eval,False,verified
+Heavy rainfall is expected tomorrow according to the meteorological department.,English,Normal English,0.0,curated_eval,False,verified
+These filthy subhuman parasites should be driven out of our country and wiped out.,English,Hateful English,1.0,curated_eval,False,verified
+All members of that degenerate religion are terrorists who deserve to suffer and die.,English,Hateful English,1.0,curated_eval,False,verified
+"You disgusting vermin, people of your race have no right to exist in human society.",English,Hateful English,1.0,curated_eval,False,verified
+"Go back to where you crawled from, you worthless scum destroying our heritage.",English,Hateful English,1.0,curated_eval,False,verified
+The professor lectured on how slurs like 'bitch' and 'fag' were weaponized in 20th century media.,English,Ambiguous English,,curated_eval,False,needs_adjudication
+"This movie was absolute trash, the director deserves to get slapped for wasting my time.",English,Ambiguous English,,curated_eval,False,needs_adjudication
+"Proud to reclaim our identity with my best bitches tonight, queens killin it!",English,Ambiguous English,,curated_eval,False,needs_adjudication
+Politicians who lie constantly about public health should be locked in cages.,English,Ambiguous English,,curated_eval,False,needs_adjudication
+आज मौसम बहुत सुहावना है और शाम को पार्क में टहलने का मन है।,Hindi,Normal Hindi,0.0,curated_eval,False,verified
+शिक्षा और स्वास्थ्य हर नागरिक का बुनियादी अधिकार होना चाहिए।,Hindi,Normal Hindi,0.0,curated_eval,False,verified
+भारतीय वैज्ञानिकों ने अंतरिक्ष अनुसंधान के क्षेत्र में अद्भुत सफलता प्राप्त की है।,Hindi,Normal Hindi,0.0,curated_eval,False,verified
+त्योहारों के अवसर पर सभी समुदायों के लोग मिलकर खुशियां मनाते हैं।,Hindi,Normal Hindi,0.0,curated_eval,False,verified
+इन गद्दार कौम के कीड़ों को चुन चुन कर देश से बाहर फेंको या जिंदा जला दो।,Hindi,Hateful Hindi,1.0,curated_eval,False,verified
+"ये नीच जाति के कुत्ते कभी सुधर नहीं सकते, इनकी औकात सिर्फ पैरों की धूल है।",Hindi,Hateful Hindi,1.0,curated_eval,False,verified
+"इन हरामखोरों का कत्लेआम होना चाहिए, ये समाज का कचरा हैं।",Hindi,Hateful Hindi,1.0,curated_eval,False,verified
+"साले सूअर की औलाद, तुम्हारी पूरी नस्ल को जड़ से खत्म कर देना चाहिए।",Hindi,Hateful Hindi,1.0,curated_eval,False,verified
+"இந்த புத்தகம் மிக அருமையாக எழுதப்பட்டுள்ளது, அனைவரும் வாசிக்க வேண்டும்.",Tamil,Normal Tamil,0.0,curated_eval,False,verified
+தமிழ்நாட்டின் பாரம்பரிய கலை மற்றும் பண்பாடு உலகளவில் போற்றப்படுகிறது.,Tamil,Normal Tamil,0.0,curated_eval,False,verified
+விவசாயிகளின் உழைப்பால் மட்டுமே நம் நாட்டின் உணவுத் தேவை பூர்த்தியாகிறது.,Tamil,Normal Tamil,0.0,curated_eval,False,verified
+இன்று மாலை கடற்கரையில் குடும்பத்துடன் நேரம் செலவிட்டேன்.,Tamil,Normal Tamil,0.0,curated_eval,False,verified
+"இந்த பரதேசி நாய்களை அடித்து விரட்ட வேண்டும், இந்த நாட்டை நாசமாக்கும் பன்றிகள்.",Tamil,Hateful Tamil,1.0,curated_eval,False,verified
+"உன் சாதி மொத்தமும் கிரிமினல் கூட்டம், உங்களை வெட்டி சாய்க்க வேண்டும்.",Tamil,Hateful Tamil,1.0,curated_eval,False,verified
+இந்த எச்ச கலைகளை எல்லாம் கண்டதும் சுட்டு தள்ள வேண்டும்.,Tamil,Hateful Tamil,1.0,curated_eval,False,verified
+"தேவிடியா பசங்களா, உங்கள் இனம் அழிய வேண்டிய சாபக்கேடு.",Tamil,Hateful Tamil,1.0,curated_eval,False,verified
+കേരളത്തിലെ പ്രകൃതിഭംഗിയും ശാന്തമായ അന്തരീക്ഷവും മനസ്സിന് സന്തോഷം നൽകുന്നു.,Malayalam,Normal Malayalam,0.0,curated_eval,False,verified
+പുതിയ സാങ്കേതികവിദ്യകൾ വിദ്യാർത്ഥികൾക്ക് പഠനത്തിൽ വളരെയധികം ഗുണം ചെയ്യും.,Malayalam,Normal Malayalam,0.0,curated_eval,False,verified
+നല്ല സിനിമകൾ മനുഷ്യരുടെ ചിന്തകളെ സ്വാധീനിക്കുകയും പ്രചോദിപ്പിക്കുകയും ചെയ്യുന്നു.,Malayalam,Normal Malayalam,0.0,curated_eval,False,verified
+ആരോഗ്യകരമായ ഭക്ഷണശീലങ്ങൾ ജീവിതത്തിൽ പാലിക്കേണ്ടത് അത്യാവശ്യമാണ്.,Malayalam,Normal Malayalam,0.0,curated_eval,False,verified
+"ഈ തെണ്ടി വർഗ്ഗത്തെ മുഴുവൻ തല്ലിക്കൊല്ലണം, നാടിന് നാശം ഉണ്ടാക്കുന്ന വിഷജന്തുക്കൾ.",Malayalam,Hateful Malayalam,1.0,curated_eval,False,verified
+നിന്റെ തന്തയില്ലാത്ത ജാതിയെ സമൂഹത്തിൽ നിന്ന് തുരത്തണം പുലയാടി മോനേ.,Malayalam,Hateful Malayalam,1.0,curated_eval,False,verified
+"ഈ പന്നികളെ ജീവനോടെ വെച്ചേക്കരുത്, ഇവരെയെല്ലാം ചുട്ടുകൊല്ലണം.",Malayalam,Hateful Malayalam,1.0,curated_eval,False,verified
+മതഭ്രാന്തൻമാരായ ഈ നായ്ക്കളെ വെട്ടി കഷണങ്ങളാക്കണം.,Malayalam,Hateful Malayalam,1.0,curated_eval,False,verified
+"Yeh movie really awesome thi, acting and direction was top notch bro!",Hindi+English,Hindi + English,0.0,curated_eval,False,verified
+In sab saale bloody traitors ko country se throw out karo immediately.,Hindi+English,Hindi + English,1.0,curated_eval,False,verified
+"Match super ah irundhuchu, final over bowling vera level mass!",Tamil+English,Tamil + English,0.0,curated_eval,False,verified
+Dai bastards unga whole gang ah destroy pannாம vidamaatom da.,Tamil+English,Tamil + English,1.0,curated_eval,False,verified
+"Nalla interesting video aayirunnu, thanks for sharing this useful concept.",Malayalam+English,Malayalam + English,0.0,curated_eval,False,verified
+Ninte okke bloody dirty family motham chavanam da myre.,Malayalam+English,Malayalam + English,1.0,curated_eval,False,verified

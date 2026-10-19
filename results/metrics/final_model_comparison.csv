@@ -1,0 +1,5 @@
+Model,Dataset,Split,Samples,Accuracy,Macro-F1,Weighted-F1,Hate Precision,Hate Recall,Hate F1,Non-Hate F1,ROC-AUC,FPR (%),FNR (%),Source File
+TF-IDF + Logistic Regression,Unified MACD + HateXplain,Official Internal Test,19787,0.828,0.828,0.8281,0.8355,0.8108,0.823,0.833,0.9091,15.6,18.83,results/metrics/baseline_metrics.json
+XLM-RoBERTa (Fine-Tuned),Unified MACD + HateXplain,Official Internal Test,19787,0.8612,0.8611,0.8612,0.8577,0.8606,0.8592,0.8631,0.9399,13.83,13.94,results/metrics/xlmr_test_metrics.json
+XLM-RoBERTa (Zero-Shot Domain),IndicGuard (l3cube-pune/IndicGuard),External Test (Broad),77677,0.8488,0.5591,0.8094,0.4834,0.1275,0.2017,0.9165,0.7516,2.4,87.25,results/metrics/xlmr_external_metrics.json
+XLM-RoBERTa (Zero-Shot Domain),IndicGuard (l3cube-pune/IndicGuard),External Test (Strict),59709,0.8519,0.5843,0.817,0.4934,0.1566,0.2393,0.9189,0.7937,2.65,84.34,results/metrics/xlmr_external_metrics.json

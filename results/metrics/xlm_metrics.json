@@ -1,0 +1,120 @@
+{
+  "model_name": "XLM-RoBERTa (fine-tuned xlm-roberta-base)",
+  "model_sha256": "fda10ac6bf81d189ab599a080cae5c159e05325a374c09797ac9245c8fb5f396",
+  "dataset_identifier": "Unified MACD + HateXplain",
+  "evaluation_split": "official held-out test split",
+  "number_of_evaluated_samples": 19787,
+  "label_mapping": {
+    "0": "Non-Hate",
+    "1": "Hate/Abusive"
+  },
+  "accuracy": 0.8611714762217617,
+  "macro_f1": 0.8611436712899928,
+  "weighted_f1": 0.8611747532315774,
+  "per_class_metrics": {
+    "non_hate": {
+      "f1": 0.8631085862361091
+    },
+    "hate_abusive": {
+      "precision": 0.857727737973388,
+      "recall": 0.8606346924103934,
+      "f1": 0.8591787563438765
+    }
+  },
+  "per_language_metrics": {
+    "English": {
+      "n": 1918,
+      "n_hate": 1141,
+      "accuracy": 0.7924921793534933,
+      "precision_hate": 0.8188841201716738,
+      "recall_hate": 0.8361086765994742,
+      "f1_hate": 0.8274067649609714,
+      "f1_non_hate": 0.7398692810457517,
+      "precision_macro": 0.7852720733660494,
+      "recall_macro": 0.7822757025211013,
+      "macro_f1": 0.7836380230033615,
+      "weighted_f1": 0.7919444995792583,
+      "confusion_matrix": {
+        "tn": 566,
+        "fp": 211,
+        "fn": 187,
+        "tp": 954
+      },
+      "roc_auc": 0.874415294222481,
+      "pr_auc": 0.9127808321474788
+    },
+    "Hindi": {
+      "n": 6723,
+      "n_hate": 3494,
+      "accuracy": 0.8630075858991522,
+      "precision_hate": 0.8708561545113865,
+      "recall_hate": 0.8646250715512307,
+      "f1_hate": 0.8677294269711331,
+      "f1_non_hate": 0.8579361406756132,
+      "precision_macro": 0.8627482985218273,
+      "recall_macro": 0.8629412133847822,
+      "macro_f1": 0.8628327838233731,
+      "weighted_f1": 0.8630257944487125,
+      "confusion_matrix": {
+        "tn": 2781,
+        "fp": 448,
+        "fn": 473,
+        "tp": 3021
+      },
+      "roc_auc": 0.9379334621861163,
+      "pr_auc": 0.9456548347282043
+    },
+    "Malayalam": {
+      "n": 5154,
+      "n_hate": 2308,
+      "accuracy": 0.8632130384167637,
+      "precision_hate": 0.8447311827956989,
+      "recall_hate": 0.8509532062391681,
+      "f1_hate": 0.8478307791927476,
+      "f1_non_hate": 0.8757709251101321,
+      "precision_macro": 0.8615667225395957,
+      "recall_macro": 0.8620542559656839,
+      "macro_f1": 0.8618008521514399,
+      "weighted_f1": 0.8632591174311792,
+      "confusion_matrix": {
+        "tn": 2485,
+        "fp": 361,
+        "fn": 344,
+        "tp": 1964
+      },
+      "roc_auc": 0.943063160798518,
+      "pr_auc": 0.9339554949201436
+    },
+    "Tamil": {
+      "n": 5992,
+      "n_hate": 2794,
+      "accuracy": 0.8793391188251002,
+      "precision_hate": 0.8683742440412665,
+      "recall_hate": 0.8736578382247674,
+      "f1_hate": 0.8710080285459412,
+      "f1_non_hate": 0.8866593509954538,
+      "precision_macro": 0.8787014256987219,
+      "recall_macro": 0.8789802637027526,
+      "macro_f1": 0.8788336897706974,
+      "weighted_f1": 0.8793613211349834,
+      "confusion_matrix": {
+        "tn": 2828,
+        "fp": 370,
+        "fn": 353,
+        "tp": 2441
+      },
+      "roc_auc": 0.9530648517349113,
+      "pr_auc": 0.9460568530196258
+    }
+  },
+  "confusion_matrix": {
+    "tn": 8660,
+    "fp": 1390,
+    "fn": 1357,
+    "tp": 8380
+  },
+  "roc_auc": 0.9398591462937954,
+  "pr_auc": 0.9395281428198665,
+  "evaluation_source": "Historical GPU benchmark from Colab evaluation (notebook 05)",
+  "relevant_limitations": "Evaluated on held-out internal test set. Local live forward inference requires weights restored from Google Drive."
+}

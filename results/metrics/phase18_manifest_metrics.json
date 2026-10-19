@@ -1,0 +1,26 @@
+{
+  "manifest_path": "C:\\Users\\aryak\\OneDrive\\Desktop\\multilingual-hate-speech\\data\\evaluation\\multilingual_test_manifest.csv",
+  "total_manifest_samples": 42,
+  "supervised_eligible_samples": 38,
+  "ambiguous_excluded_samples": 4,
+  "model_artifact_status": {
+    "baseline": {
+      "name": "TF-IDF + Logistic Regression",
+      "path": "C:\\Users\\aryak\\OneDrive\\Desktop\\multilingual-hate-speech\\models\\baseline\\tfidf_lr.joblib",
+      "available": false,
+      "detail": "Artifact missing: models/baseline/tfidf_lr.joblib not found on disk"
+    },
+    "xlm_roberta": {
+      "name": "XLM-RoBERTa",
+      "path": "C:\\Users\\aryak\\OneDrive\\Desktop\\multilingual-hate-speech\\models\\xlm_roberta_hate",
+      "available": false,
+      "detail": "Artifact missing in C:\\Users\\aryak\\OneDrive\\Desktop\\multilingual-hate-speech\\models\\xlm_roberta_hate: config.json exists=False, weights exists=False (Fine-tuned weights reside on Google Drive as documented in README.md)"
+    },
+    "indicguard_model": {
+      "name": "IndicGuard Model",
+      "available": false,
+      "detail": "IndicGuard is an evaluation dataset (L3Cube-Pune IndicGuard LLM safety corpus), not a trained model."
+    }
+  },
+  "models_evaluated": []
+}

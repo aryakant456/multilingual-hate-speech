@@ -1,0 +1,207 @@
+{
+  "model_name": "XLM-RoBERTa (fine-tuned on MACD + HateXplain)",
+  "dataset_identifier": "IndicGuard (l3cube-pune/IndicGuard)",
+  "evaluation_split": "external out-of-domain test benchmark",
+  "broad_evaluation": {
+    "number_of_evaluated_samples": 77677,
+    "accuracy": 0.8488098150031541,
+    "macro_f1": 0.5591186408997336,
+    "weighted_f1": 0.8093715120663715,
+    "f1_hate": 0.20174007612833061,
+    "confusion_matrix": {
+      "tn": 64449,
+      "fp": 1586,
+      "fn": 10158,
+      "tp": 1484
+    },
+    "roc_auc": 0.7516296188294413
+  },
+  "strict_evaluation": {
+    "number_of_evaluated_samples": 59709,
+    "accuracy": 0.8547622636453466,
+    "macro_f1": 0.5806916091860399,
+    "weighted_f1": 0.8219235201367056,
+    "f1_hate": 0.2416928996152501,
+    "confusion_matrix": {
+      "tn": 49655,
+      "fp": 1444,
+      "fn": 7228,
+      "tp": 1382
+    },
+    "roc_auc": 0.7710106163847325
+  },
+  "per_language_broad": {
+    "English": {
+      "n": 19465,
+      "n_hate": 2918,
+      "accuracy": 0.8539429745697406,
+      "precision_hate": 0.557427258805513,
+      "recall_hate": 0.1247429746401645,
+      "f1_hate": 0.2038644637356483,
+      "f1_non_hate": 0.9195961424248423,
+      "precision_macro": 0.7108314265535114,
+      "recall_macro": 0.5536387865283979,
+      "macro_f1": 0.5617303030802453,
+      "weighted_f1": 0.8123007384477005,
+      "confusion_matrix": {
+        "tn": 16258,
+        "fp": 289,
+        "fn": 2554,
+        "tp": 364
+      },
+      "roc_auc": 0.7791318396725915,
+      "pr_auc": 0.39879424584138595
+    },
+    "Hindi": {
+      "n": 19426,
+      "n_hate": 2926,
+      "accuracy": 0.8450015443220427,
+      "precision_hate": 0.4681647940074906,
+      "recall_hate": 0.21360218728639782,
+      "f1_hate": 0.29335836658061487,
+      "f1_non_hate": 0.912954236651152,
+      "precision_macro": 0.6704872391904679,
+      "recall_macro": 0.5852859421280474,
+      "macro_f1": 0.6031563016158834,
+      "weighted_f1": 0.8196289243981719,
+      "confusion_matrix": {
+        "tn": 15790,
+        "fp": 710,
+        "fn": 2301,
+        "tp": 625
+      },
+      "roc_auc": 0.7777235961805339,
+      "pr_auc": 0.37434948720148775
+    },
+    "Malayalam": {
+      "n": 19412,
+      "n_hate": 2900,
+      "accuracy": 0.8492684937152277,
+      "precision_hate": 0.4845605700712589,
+      "recall_hate": 0.1406896551724138,
+      "f1_hate": 0.21806520577231428,
+      "f1_non_hate": 0.9165954050510233,
+      "precision_macro": 0.6751828159995498,
+      "recall_macro": 0.5572028702218658,
+      "macro_f1": 0.5673303054116688,
+      "weighted_f1": 0.812240491703184,
+      "confusion_matrix": {
+        "tn": 16078,
+        "fp": 434,
+        "fn": 2492,
+        "tp": 408
+      },
+      "roc_auc": 0.7756066016773591,
+      "pr_auc": 0.37031700700024256
+    },
+    "Tamil": {
+      "n": 19374,
+      "n_hate": 2898,
+      "accuracy": 0.8470114586559306,
+      "precision_hate": 0.3625,
+      "recall_hate": 0.030020703933747412,
+      "f1_hate": 0.055449330783938815,
+      "f1_non_hate": 0.9167649536647009,
+      "precision_macro": 0.6077943712762621,
+      "recall_macro": 0.5103672347054025,
+      "macro_f1": 0.48610714222431983,
+      "weighted_f1": 0.7879277143177179,
+      "confusion_matrix": {
+        "tn": 16323,
+        "fp": 153,
+        "fn": 2811,
+        "tp": 87
+      },
+      "roc_auc": 0.7158226550662979,
+      "pr_auc": 0.29567231816268424
+    }
+  },
+  "per_language_strict": {
+    "English": {
+      "n": 14975,
+      "n_hate": 2160,
+      "accuracy": 0.8613689482470784,
+      "precision_hate": 0.567741935483871,
+      "recall_hate": 0.16296296296296298,
+      "f1_hate": 0.25323741007194245,
+      "f1_non_hate": 0.9235921972764078,
+      "precision_macro": 0.7208963944225346,
+      "recall_macro": 0.5710249851880753,
+      "macro_f1": 0.5884148036741752,
+      "weighted_f1": 0.8268999541804716,
+      "confusion_matrix": {
+        "tn": 12547,
+        "fp": 268,
+        "fn": 1808,
+        "tp": 352
+      },
+      "roc_auc": 0.8164442168465774,
+      "pr_auc": 0.43215625829505533
+    },
+    "Hindi": {
+      "n": 14934,
+      "n_hate": 2168,
+      "accuracy": 0.8506093477969734,
+      "precision_hate": 0.4744525547445255,
+      "recall_hate": 0.2698339483394834,
+      "f1_hate": 0.344016465745369,
+      "f1_non_hate": 0.9157063513053991,
+      "precision_macro": 0.6794567714967792,
+      "recall_macro": 0.6095370587694597,
+      "macro_f1": 0.6298614085253841,
+      "weighted_f1": 0.8327129354828368,
+      "confusion_matrix": {
+        "tn": 12118,
+        "fp": 648,
+        "fn": 1583,
+        "tp": 585
+      },
+      "roc_auc": 0.7960026503171189,
+      "pr_auc": 0.3899550207523727
+    },
+    "Malayalam": {
+      "n": 14916,
+      "n_hate": 2142,
+      "accuracy": 0.855054974524001,
+      "precision_hate": 0.4865229110512129,
+      "recall_hate": 0.1685340802987862,
+      "f1_hate": 0.2503467406380028,
+      "f1_non_hate": 0.9197714116075405,
+      "precision_macro": 0.6804351538464757,
+      "recall_macro": 0.5693539354053818,
+      "macro_f1": 0.5850590761227716,
+      "weighted_f1": 0.8236392283669431,
+      "confusion_matrix": {
+        "tn": 12393,
+        "fp": 381,
+        "fn": 1781,
+        "tp": 361
+      },
+      "roc_auc": 0.7833249786528045,
+      "pr_auc": 0.3778240463385272
+    },
+    "Tamil": {
+      "n": 14884,
+      "n_hate": 2140,
+      "accuracy": 0.8519887127116367,
+      "precision_hate": 0.36363636363636365,
+      "recall_hate": 0.03925233644859813,
+      "f1_hate": 0.07085617882749895,
+      "f1_non_hate": 0.919589736102493,
+      "precision_macro": 0.6116618998281457,
+      "recall_macro": 0.5138587482619639,
+      "macro_f1": 0.49522295746499595,
+      "weighted_f1": 0.7975600523771175,
+      "confusion_matrix": {
+        "tn": 12597,
+        "fp": 147,
+        "fn": 2056,
+        "tp": 84
+      },
+      "roc_auc": 0.724269181465641,
+      "pr_auc": 0.2960661061294162
+    }
+  },
+  "evaluation_source": "Historical GPU benchmark from Colab evaluation (notebook 05)",
+  "relevant_limitations": "IndicGuard is an LLM-safety benchmark of translated prompts, not social media comments. High false-negative rate indicates domain shift."
+}
